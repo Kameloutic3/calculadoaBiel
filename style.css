@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+/* Resetando o CSS */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #3b4664;
+}
+
+/* -- Area calculadora -- */
+
+    .area--calculadora {
+        width: 430px; height: 540px;
+        background-color: #3b4664;
+        border: 1px solid rgba(255, 255, 255, 0.39);
+    }
+
+    .cabecalho--calculadora {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+
+    .title--calculadora {
+        margin: 10px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .color--calculadora {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .colorTheme--calculadora {
+        margin-left: 5px;
+        width: 80px;
+        height: 25px;
+        background-color: #252d46;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: all ease 0.8s;
+    }
+
+    .move--ball {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        margin-left: 4px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+        cursor: pointer;
+        position: absolute;
+        transition: all ease 0.8s;
+        background-color: red;
+    }
+
+    .rightThirty{
+        right: 30px;
+    }
+    .rightZero{
+        right: 0;
+    }
+    .leftZero {
+        right: 55px;
+    }
+
+    .area--option--calculadora {
+        display: flex;
+    }
+
+    .option {
+        margin: 0px 12px;
+    }
+
+    .tema {
+        position: relative;
+        top: 37px;
+        right: 75px;
+    }
+
+    .tela--calculadora {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+    }
+
+    .tela {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 20px;
+        background-color: white;
+        height: 80px;
+        width: 400px;
+        background-color: #181f32;
+    }
+
+    .area--teclado--calculadora {
+        display: flex;
+        justify-content: center;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 400px;
+        height: 320px;
+        background-color: #181f32;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: #eae3db;
+        margin: 10px 5px;
+        height: 40px;
+        width: 85px;
+        font-size: 24px;
+        font-weight: 700;
+        border-bottom: 3px solid #b2a29581;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .comum, .comum--Red {
+        text-transform: uppercase;
+        width: 150px;
+        font-size: 23px;
+    }
+
+    .comum {
+        border-bottom: 3px solid #414e71;
+        background-color: #647299;
+        color: white;
+    }
+
+    .comum--Red {
+        background-color: #d13f30;
+        color: white;
+        border-bottom: 3px solid #912316;
+    }
+
+    .del {
+        border-bottom: 3px solid #414e71;
+        background-color: #647299;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .colorTwo {
+        background-color: #388187;
+        border-bottom: 3px solid #1c6168;
+    }
+
+    .colorTwoRed {
+        background-color: #c85401;
+        border-bottom: 3px solid #873b01;
+    }
+
+    .botoesThree {
+        background-color: #331b4d;
+        color: #ffe734;
+        border-bottom: 3px solid  #851c9d;
+    }
+
+    .colorThree {
+        background-color: #56077c;
+        border-bottom: 3px solid #b11fe4;
+    }
+
+    .colorThreeRed {
+        background-color: #00decf;
+        border-bottom: 3px solid #6dfaf1;
+        color: black;
+    }
+
+    .unico {
+        color: white;
+    }
+
+    .colorBotoesThree {
+        background-color: #eae3db;
+        border-bottom: 3px solid #b2a295;
+        color: black;
+    }
+
+    .colorComumThree {
+        background-color: #647299;
+        border-bottom: 3px solid #424e74;
+        color: white;
+    }
+
+    .colorThreeRed4{
+        background-color: #d13f30;
+        border-bottom: 3px solid #8f2316;
+        color: white;
+    }
